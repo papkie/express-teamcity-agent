@@ -15,5 +15,6 @@ RUN apt-get install -y nodejs build-essential
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 
 RUN pip install awscli
+RUN pip install docker-compose
 
 ADD run-postgres.sh /services/run-postgres.sh
