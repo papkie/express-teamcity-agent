@@ -1,7 +1,5 @@
 FROM jetbrains/teamcity-agent:2017.2.4
 
-ENV DOCKER_IN_DOCKER=start
-
 RUN apt-get update -y
 
 RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -
