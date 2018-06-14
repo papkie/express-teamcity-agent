@@ -1,4 +1,4 @@
-FROM jetbrains/teamcity-agent
+FROM jetbrains/teamcity-agent:2017.2.4
 
 ENV DOCKER_IN_DOCKER=start
 
