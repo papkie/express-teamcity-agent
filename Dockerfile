@@ -10,4 +10,4 @@ RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.s
 
 RUN pip install awscli docker-compose
 
-COPY buildAgent.properties /data/teamcity_agent/conf/buildAgent.properties
+COPY buildAgent.properties /data/teamcity_agent/conf/
