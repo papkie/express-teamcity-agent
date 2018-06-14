@@ -9,3 +9,5 @@ RUN apt-get install -y python python-pip nodejs build-essential
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 RUN pip install awscli docker-compose
+
+COPY buildAgent.properties /data/teamcity_agent/conf/buildAgent.properties
